@@ -1,22 +1,22 @@
+import java.util.Scanner;
+
 public class Main {
 
+
     public static void main(String[] args) {
-        // Integers
-        int x = 1;
-        x += 2;
-        System.out.println(x);
+        // FizzBuzz Exercise
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("What is your number?: ");
+        int number = scanner.nextInt();
 
-        // Strings
-        String message = "Hello";
-        message += " World!";
-        System.out.println(message);
-
-        // Practice with Casting
-        double x1 = 1.1;
-        double y1 = x1+2;
-        System.out.println(y1);
-        double x2 = 1.2;
-        int y2 = (int)x2 + 2;
-        System.out.println(y2);
+        if (number % 5 == 0 && number % 3 == 0) {
+            System.out.println("FizzBuzz!");
+        } else if (number % 3 == 0) {
+            System.out.println("Fizz!");
+        } else if (number % 5 == 0) {
+            System.out.println("Buzz!");
+        } else {
+            System.out.println(number);
+        }
     }
 }
