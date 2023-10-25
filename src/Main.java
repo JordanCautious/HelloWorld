@@ -4,11 +4,21 @@ public class Main {
 
     public static void main(String[] args) {
         sayHello("Jordan", 23);
+        arraynum();
         fizzBuzz();
     }
 
     public static void sayHello(String name, int age) {
         System.out.println("Hello " + name + "!" + " It seems your age is " + age);
+    }
+
+    public static void arraynum() {
+        int[] numbers = {45, 3, 57, 63, 8, 22, 78};
+        for (int num: numbers) {
+            System.out.print(num);
+            System.out.print("-");
+        }
+        System.out.println("[End of Array]");
     }
 
     public static void fizzBuzz() {
