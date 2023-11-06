@@ -3,9 +3,17 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        sayHello("Jordan", 23);
-        arraynum();
-        fizzBuzz();
+        class Dog {
+            int age;
+
+            String bark() {
+                return "WOOF!";
+            }
+        }
+        Dog max = new Dog();
+        String dogBarking = max.bark();
+        System.out.println(dogBarking);
+
     }
 
     public static void sayHello(String name, int age) {

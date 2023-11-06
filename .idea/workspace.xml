@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b505b33-ffb0-4945-8fe9-bd649b7988bf" name="Changes" comment="Some more practice with Java">
+    <list default="true" id="2b505b33-ffb0-4945-8fe9-bd649b7988bf" name="Changes" comment="More practice with Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -33,6 +33,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HelloWorld" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698247139787</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="More practice with Java">
+      <option name="closed" value="true" />
+      <created>1698249718223</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698249718223</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,6 +121,7 @@
     <MESSAGE value="More Practice" />
     <MESSAGE value="Successfully figured out Fizzbuzz in Java" />
     <MESSAGE value="Some more practice with Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more practice with Java" />
+    <MESSAGE value="More practice with Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="More practice with Java" />
   </component>
 </project>
